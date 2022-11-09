@@ -6,4 +6,6 @@ Script to fast-track installation of Raspeberry Pi NAS
 
 Install Open Media Vault first then Plex Media Server if you wish to use it as a media server. 
 
+you may have to change the following line in 
+
 Enjoy :)
