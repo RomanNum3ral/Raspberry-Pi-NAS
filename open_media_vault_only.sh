@@ -1,4 +1,7 @@
 #!/bin/bash
+sudo apt-get update
+sudo dpkg --clear-avail
+sudo apt-get update
 sudo wget -O - https://raw.githubusercontent.com/OpenMediaVault-Plugin-Developers/installScript/master/install | sudo bash
 sudo apt install -y python
 sudo apt install -y pigpio python-pigpio python3-pigpio git
